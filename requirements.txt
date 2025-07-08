@@ -1,0 +1,14 @@
+
+---
+
+## 🧪 Step 3: **requirements.txt**
+
+Use this content if you worked mainly in Jupyter Notebook:
+
+```txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter

@@ -22,7 +22,8 @@ To build a regression-based machine learning model that predicts car fuel effici
 - **RMSE**: 3.92 *(example, replace with your actual score)*
 
 ## 📷 Sample Output
-![Correlation Heatmap](images/mpg-correlation.png)
+![Correlation](mpg-correlation.png)
+![Final visualization](visualization.png)
 
 ## ▶️ How to Run
 

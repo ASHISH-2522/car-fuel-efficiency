@@ -1,39 +1,75 @@
 # 🚗 Car Fuel Efficiency Prediction
 
 ## 🎯 Objective
-To build a regression-based machine learning model that predicts car fuel efficiency (in MPG) using various car features.
+To build a regression-based machine learning model that predicts car fuel efficiency (in MPG) using various car features such as displacement, horsepower, weight, etc.
+
+---
+
+## 📘 Project Background
+
+This project was part of a 5th semester internship with **Rubixe Datamite Pvt. Ltd.**, a company specializing in AI, data analytics, and machine learning. The goal was to gain hands-on experience in supervised machine learning using Python and to apply theoretical knowledge to real-world data.
+
+The project is based on the **Auto MPG dataset**, and the task was to use regression modeling to predict a car’s fuel efficiency.
+
+---
 
 ## 🛠 Tools & Technologies
+
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - Seaborn, Matplotlib
+- Jupyter Notebook
+
+---
 
 ## 🔄 Workflow
-1. Data Cleaning & Preprocessing
-2. Feature Engineering
-3. Correlation Analysis
-4. Linear Regression Model Training
-5. Model Evaluation (RMSE & R² Score)
+
+1. Data Collection (UCI dataset)
+2. Data Cleaning and Preprocessing
+3. Correlation & Feature Analysis
+4. Model Building (Linear Regression)
+5. Model Evaluation (RMSE, R²)
+6. Visualization of Results
+
+---
+
+## 🧪 Algorithms Considered
+
+- Linear Regression ✅ *(selected for implementation)*
+- Decision Trees
+- Random Forest
+- Support Vector Regression (SVR)
+- Neural Networks
+
+---
 
 ## 📊 Results
+
 - **Model Used**: Linear Regression
-- **R² Score**: 0.81 *(example, replace with your actual score)*
-- **RMSE**: 3.92 *(example, replace with your actual score)*
+- **R² Score**: *~0.81*
+- **RMSE**: *~3.9 MPG*
 
-## 📷 Sample Output
-![Correlation](images/mpg-correlation.png)
-![Final visualization](images/visualization.png)
+---
 
-## ▶️ How to Run
+## 💡 Findings & Limitations
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/car-fuel-efficiency.git
-cd car-fuel-efficiency
+### ✅ Key Findings:
+- Car weight, displacement, and horsepower are key predictors of MPG.
+- Linear Regression provided good baseline performance.
+- Visual analysis helped detect outliers and multicollinearity.
 
-# Install dependencies
-pip install -r requirements.txt
+### ⚠️ Limitations:
+- Dataset was relatively small (~398 records).
+- Some features like "car name" were ignored.
+- Model doesn't generalize to hybrid/electric vehicles.
 
-# Run the notebook
-jupyter notebook car_fuel_efficiency.ipynb
+---
+
+## 📷 Sample Visualizations
+
+![Correlation Heatmap](images/mpg-correlation.png)
+![Correlation Heatmap](images/actual_vs_predicted.png)
+
+```python
+plt.savefig('images/mpg-correlation.png')

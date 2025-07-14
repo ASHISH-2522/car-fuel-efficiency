@@ -1,14 +1,6 @@
-
----
-
-## 🧪 Step 3: **requirements.txt**
-
-Use this content if you worked mainly in Jupyter Notebook:
-
-```txt
 pandas
 numpy
+scikit-learn
 matplotlib
 seaborn
-scikit-learn
-jupyter
+joblib
